@@ -1,0 +1,200 @@
+
+
+body{
+	margin: 0;
+	background-color: #F8F9F9;
+
+}
+img{
+	width: 100%;
+}
+.nav{
+	display: flex;
+	background-color: #313040;
+	color: white;
+	height: 40px;
+	align-items: center;
+	justify-content: center;
+	font-family: "DM Sans", sans-serif;
+
+}
+.nav_c1{
+	flex: 60%;
+	text-align: left;
+	font-size:15px;
+	font-weight: bold;
+}
+.nav_c2{
+	flex: 20%;
+	text-align: right;
+	font-size:15px;
+
+}
+.nav_c3{
+	flex: 20%;
+	text-align: center;
+	background-color: #E8604A;
+	color: white;
+	font-size:18px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding:9px;
+}
+.nav .fa{
+	font-size: 20px;
+	padding-left: 10px;
+}
+.nav .fa:hover{
+	color: #E8604A;
+}
+.fa-phone{
+	color: #E8604A;
+}
+.fa-file{
+	color: #E8604A;
+
+}
+
+.header{
+	display: flex;
+	background-color: #FFFFFF;
+	font-family: Quicksand, sans-serif;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.header_c1{
+	flex: 20%;
+	padding:5px;
+}
+.header_c2{
+	flex: 60%;
+	padding-top:1.5%;
+
+}
+.header_c3{
+	flex: 20%;
+	padding-top:1.5%;
+	text-align: right;
+	padding-right: 1%;
+
+}
+.header_c1 img{
+	width: 220px;
+}
+
+.header_c2 a{
+	text-decoration: none;
+	padding-left: 2%;
+	font-size:17px;
+	color: black;
+	text-align: left;
+	font-weight: bold;
+
+}
+.header_c2 a:hover{
+	color: #E8604A;
+}
+
+
+.button{
+	background-color:#313040;
+	color: white;
+	border-radius: 25px;
+	padding:10px;
+	padding-left: 11%;
+	padding-right: 11%;
+	font-size: 17px;
+	font-family: "DM Sans", sans-serif;
+	cursor: pointer;
+}
+.txt{
+	display: flex;
+	font-family: "DM Sans", sans-serif;
+}
+.txt_c1{
+	flex: 100%;
+	text-align: center;
+}
+.txt_c1 h1{
+	color:#E8604A;
+	font-size:36px;
+	
+	margin-bottom: 0;
+}
+.txt_c1 p{
+	color:#313040;
+	font-size:18px;
+	margin-top: 4px;
+
+
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+cursor: pointer;
+
+
+}
+.box_c1{
+	flex:16%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin:15px;
+	border-radius:10px;
+	transition: transform .5s;
+
+}
+.box_c1:hover{
+transform: scale(1.1);
+
+}
+
+.box_c1 h4{
+	text-align: center;
+	color: #313040;
+	font-family: "DM Sans", sans-serif;
+	
+}
+.pic{
+	display: flex;
+}
+.pic_c1{
+	flex: 100%;
+	padding:1%;
+}
+
+.jobs{
+	display: flex;
+	gap:10px;
+	font-family: "DM Sans", sans-serif;
+	padding-left:10px;
+	padding-right:10px;
+
+
+}
+.jobs_c1{
+	flex: 18%;
+	margin-top: 25px;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	padding-left:10px;
+	border-radius:5px;
+
+}
+.jobs_c1 h2{
+	font-size:20px;
+	margin-bottom: 0;
+	color: #313A58;
+}
+.jobs_c1 p{
+	font-size:19px;
+	margin-top:5px;
+	margin-bottom: 0;
+
+
+}
+
+.footer{
+	display: flex;
+}
+.footer_c1{
+	flex: 100%;
+}
